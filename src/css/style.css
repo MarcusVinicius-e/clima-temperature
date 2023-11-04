@@ -1,7 +1,11 @@
 body{
-    background: #f3f4fb;
+    background-color: #f3f4fb;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: 'Inter', sans-serif;
     -webkit-font-smoothing: antialiased;
+    
 }
 
 .header, .temperature-details, .sunset-sunrise{
@@ -98,6 +102,10 @@ body{
     margin-top: 10px;
 }
 .bottom-container{
+    background-image: url(../image/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     background-color: #fff;
     position: absolute;
     bottom: 0;
